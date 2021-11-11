@@ -12,7 +12,7 @@ double itc_percent_lower_uppercase(string str)
 		if (str[i] >= 'a' && str[i] <= 'z')
 			lower++;
 	}
-	if (lower == 0)
+	if (upper == 0)
 		return -1;
-	return  upper/lower;
+	return  lower/upper;
 }
