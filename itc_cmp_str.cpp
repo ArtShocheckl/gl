@@ -1,9 +1,11 @@
-
 #include "str_easy.h"
 string itc_cmp_str(string str1, string str2, int num)
 {
 	long long len = itc_len(str1);
 	string new_str;
+	if(num<0)
+	new_str = "-1";
+        return new_str;
 	if (num >= len)
 		return str1 + str2;
 	for (long long i = 0; i < len; i++)
