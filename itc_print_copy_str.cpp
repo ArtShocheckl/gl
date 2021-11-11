@@ -11,7 +11,7 @@ void itc_print_copy_str(string str, int number)
     if(number >= 0){
         while( i < number){
             cout << str;
-            number++;
+            i++;
         }
     }
 }
