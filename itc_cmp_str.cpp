@@ -5,7 +5,7 @@ string itc_cmp_str(string str1, string str2, int num)
 	long long len = itc_len(str1);
 	string new_str;
 	if (num<0)
-        return -1;
+        return "";
         //return str1 + str2;
 	if (num >= len)
 		return str1 + str2;
