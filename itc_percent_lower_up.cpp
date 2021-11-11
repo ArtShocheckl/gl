@@ -14,5 +14,5 @@ double itc_percent_lower_uppercase(string str)
 	}
 	if (lower == 0)
 		return -1;
-	return  upper/lower *100;
+	return  upper/lower;
 }
