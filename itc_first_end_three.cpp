@@ -10,5 +10,5 @@ void itc_first_end_three(string str)
 			cout << str[0] << endl;
 	}
 	else 
-		cout << str[0] << str[1] << str[2] << str[len - 3] << str[len - 2] << str[len - 1] << endl;
+		cout << str[0] << str[1] << str[2] << str[len - 3] << str[len - 2] << str[len - 1];
 }
